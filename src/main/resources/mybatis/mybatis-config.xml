@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>
+	<!-- 如果要查询的字段是空值，在返回的map中会出现找不到这个字段对应的属性。要解决这个问题需要指定 callSettersOnNulls 属性 -->
+    <settings>
+        <setting name="callSettersOnNulls" value="true"/>
+    </settings>
+
+</configuration>
